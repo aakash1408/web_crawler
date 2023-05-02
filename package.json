@@ -1,0 +1,23 @@
+{
+  "name": "web_crawler",
+  "version": "1.0.0",
+  "description": "This JavaScript application will generate an internal links report for any website on the internet by crawling each page of the site.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aakash1408/web_crawler.git"
+  },
+  "author": "Aakash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aakash1408/web_crawler/issues"
+  },
+  "homepage": "https://github.com/aakash1408/web_crawler#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
