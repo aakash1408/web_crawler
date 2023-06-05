@@ -4,7 +4,7 @@
   "description": "This JavaScript application will generate an internal links report for any website on the internet by crawling each page of the site.",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js",
+    "start": "node --no-warnings main.js",
     "test": "jest"
   },
   "repository": {
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/aakash1408/web_crawler#readme",
   "devDependencies": {
     "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "jsdom": "^22.0.0"
   }
 }
